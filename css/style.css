@@ -23,11 +23,9 @@ main .row1 {
     background-color: rgb(68, 73, 78);
 }
 
-main .row1-ele {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 main .row1-ele p{
     color: white;
+    position: relative;
+    top: auto;
+    left: auto;
 }
