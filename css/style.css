@@ -1,0 +1,33 @@
+
+main .nav-menu  {
+    text-align: center;
+    border: outset 10px;
+    color: red;
+}
+main .nav-menu  a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+main .nav-menu a :hover {
+    background-color: yellow;
+}
+main {
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+main .row1 {
+    text-align: center;
+    background-color: rgb(68, 73, 78);
+}
+
+main .row1-ele {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+main .row1-ele p{
+    color: white;
+}
