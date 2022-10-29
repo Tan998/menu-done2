@@ -18,14 +18,34 @@ main {
     background-color: black;
     font-family:'Times New Roman', Times, serif;
 }
+.main-body {
+    border-color: brown;
+}
 main .row1 {
     text-align: center;
     background-color: rgb(68, 73, 78);
 }
-
+main .row1-ele img{
+    padding: 0px 0px 0px 0px;
+}
 main .row1-ele p{
     color: white;
     position: relative;
     top: auto;
     left: auto;
+}
+
+main .row3 {
+    text-align: center;
+    background-color: rgb(68, 73, 78);
+}
+main .row3-ele p{
+    color: white;
+    position: relative;
+    top: auto;
+    left: auto;
+}
+.row1 button {
+    border-color: brown;
+    border-style: double;
 }
