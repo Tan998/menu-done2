@@ -7,93 +7,223 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
         <link rel="stylesheet" href="./lightbox2-2.11.3/dist/css/lightbox.css">
-
     </head>
-    <body>
+    <body class="body">
         <main>
             <div class="container">
-
+                <!-- Nav-->
                 <div class="row nav-menu my-2">
-                    <a  class="col-lg-4 col-md-4 col-sm-4" href="#">
-                        <div>メニュー</div>
-                    </a>
-                    <a  class="col-lg-4 col-md-4 col-sm-4" href="./coupon.html">
-                        <div>ギフトカード<span class="badge badge-danger">HOT </span></div>
-                    </a>
-                    <a  class="col-lg-4 col-md-4 col-sm-4 example-image-link" href="./img/combo-demo.jpg"
-                    data-lightbox="example-set" data-title="メインメニュー">
-                        <div>Combo</div>
-                    </a>
+                    <div class="col-12">
+                        <div class="row">
+                            <a  class="col-lg-4 col-md-4 col-sm-4 col-4" href="#">
+                        
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+                                        <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793L7.646.146zM1 7v3h14V7H1zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2h14zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
+                                    メニュー</div>
+                            </a>
+                            <a  class="col-lg-4 col-md-4 col-sm-4 col-4" href="./coupon.html" target="_blank">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift" viewBox="0 0 16 16">
+                                        <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z"/>
+                                      </svg>
+                                    ギフトカード<span class="badge badge-danger">HOT </span>
+                                </div>
+                            </a>
+                            <a  class="col-lg-4 col-md-4 col-sm-4 col-4 example-image-link" href="./img/QRcode.png"
+                            data-lightbox="example-set" data-title="QRcode">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-qr-code-scan" viewBox="0 0 16 16">
+                                        <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0v-3Zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5ZM.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5Zm15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5ZM4 4h1v1H4V4Z"/>
+                                        <path d="M7 2H2v5h5V2ZM3 3h3v3H3V3Zm2 8H4v1h1v-1Z"/>
+                                        <path d="M7 9H2v5h5V9Zm-4 1h3v3H3v-3Zm8-6h1v1h-1V4Z"/>
+                                        <path d="M9 2h5v5H9V2Zm1 1v3h3V3h-3ZM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8H8Zm2 2H9V9h1v1Zm4 2h-1v1h-2v1h3v-2Zm-4 2v-1H8v1h2Z"/>
+                                        <path d="M12 9h2V8h-2v1Z"/>
+                                      </svg>
+                                    QR コード</div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 
-                    <!-- row 1-->
+                    
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg alert-info row1 col-lg-2 col-md-2 my-2" style="padding: 0;">
+                    <!-- row 1-->
+                    <nav class="navbar navbar-expand-lg alert-info row1 col-lg-2 col-md-12 my-2" style="padding: 0;">
                         <button style="width: 100%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            3C　フランスのページ
+                            ⬇⬇　3C クラスのページ　⬇⬇
                         </button>
+                        
                         <div class="row collapse navbar-collapse" id="navbarSupportedContent" style="
                         padding-left: 0px;
                         padding-right: 0px;
                         margin-right: 0px;
                         margin-left: 0px;">
-                                <article class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row1-ele">
+                                
+                                <article class="col-lg-12 col-md-12 col-sm-4 col-6 my-2 row1-ele">
                                     <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c.jpg">
                                 </article>
-                                <article class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row1-ele">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c.jpg">
+                                <article class="col-lg-12 col-md-12 col-sm-4 col-6 my-2 row1-ele">
+                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c-2.jpg">
                                 </article>
-                                <article class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row1-ele">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c.jpg">
+                                <article class="col-lg-12 col-md-12 col-sm-4 col-6 my-2 row1-ele">
+                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c-3.jpg">
                                 </article>
-                                <article class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row1-ele">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c.jpg">
+                                <article class="col-lg-12 col-md-12 col-sm-4 col-6 my-2 row1-ele">
+                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c-4.jpg">
+                                </article>
+                                <article class="col-lg-12 col-md-12 col-sm-4 col-6 my-2 row1-ele">
+                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c-5.jpg">
+                                </article>
+                                <article class="col-lg-12 col-md-12 col-sm-4 col-6 my-2 row1-ele">
+                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12" src="./img/3c-6.jpg">
                                 </article>
                         </div>
                      </nav>
                     <!--row 2-->
-                    <a class="main-body col-lg-8 col-md-8 col-sm-12 example-image-link" href="./1x//demo4.png"
-                    data-lightbox="example-set" data-title="メインメニュー">
-                        <img class="col-lg-12 col-md-12 example-image" src="./1x/demo4.png">
-                    </a>
+                    <div class="main-body col-lg-8 col-md-12 col-sm-12" href="./1x/demo5.png"
+                    data-title="メインメニュー">
+                        <img class="col-lg-12 col-md-12" src="./1x/demo5.png">
+                    </div>
                 <!--row3-->
-                            <div class="row row3 col-lg-2 col-md-2 col-sm-12 row3-ele"  style="
+                            <div class="product-items row row3 col-lg-2 col-md-12 col-sm-12 row3-ele productList"  style="
                                     padding-left: 0px;
                                     padding-right: 0px;
                                     margin-right: 0px;
-                                    margin-left: 0px;">
-                                <a class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row3-ele example-image-link" href="./imgdep/thit2.1.jpg"
-                                data-lightbox="example-set" data-title="レモンティー：　５００￥/1本">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image" src="./imgdep/thit2.2.jpg">
-                                    <p>thit xien cu qua</p>
-                                    <p>price: 500￥/1本</p>
+                                    margin-left: 0px;"
+                                    >
+                                <div class="col-12" style="color: red; text-align:center; "><h4 style="border-bottom: 2px solid #fff;">Menu</h4></div>
+                                <a class="col-lg-12 col-md-3 col-sm-3 col-6 row3-ele example-image-link" href="./imgdep/Bún-Thịt-Nướng-Vietnamese-Grilled-Pork-Takestwoeggs-Final-1.jpg"
+                                data-lightbox="example-set" data-title="春雨焼:400￥">
+                                    <div class="product-item">
+                                        <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image yaki-niku" src="./imgdep/Bún-Thịt-Nướng-Vietnamese-Grilled-Pork-Takestwoeggs-Final-1.jpg">
+                                        <h6>春雨焼き</h6>
+                                        <p><span class="amount">400</span>￥/1本</p>
+                                        
+                                    </div>
                                 </a>
-                                <a class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row3-ele example-image-link" href="./img/thit3.jpg"
-                                data-lightbox="example-set" data-title="レモンティー：　５００￥">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image" src="./img/thit3.1.png">
-                                    <p>nuoc giai khat1</p>
-                                    <p>price: 500￥</p>
+                                <a class="col-lg-12 col-md-3 col-sm-3 col-6 row3-ele example-image-link" href="./imgdep/xuc-xich.jpg"
+                                data-lightbox="example-set" data-title="ウインナ: 150￥/1本">
+                                    <div class="product-item">
+                                        <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image yaki-niku" src="./imgdep/xuc-xich.jpg">
+                                        <h6>ウインナ</h6>
+                                        <p><span class="amount">150</span>￥/1本</p>
+                                        
+                                    </div>
                                 </a>
-                                <a class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row3-ele example-image-link" href="./img/nuoc2_big.png"
-                                data-lightbox="example-set" data-title="レモンティー：　５００￥">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image" src="./img/nuoc2_big.png">
-                                    <p>nuoc giai khat1</p>
-                                    <p>price: 500￥</p>
+                                <a class="col-lg-12 col-md-3 col-sm-3 col-6 row3-ele example-image-link" href="./imgdep/thit5.jpg"
+                                data-lightbox="example-set" data-title="焼肉 150￥/1本">
+                                    <div class="product-item">
+                                        <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image yaki-niku" src="./imgdep/thit5.jpg">
+                                        <h6>焼き肉</h6>
+                                        <p><span class="amount">150</span>￥/1本</p>
+                                        
+                                    </div>
                                 </a>
-                                <a class="col-lg-12 col-md-12 col-sm-3 col-6 my-2 row3-ele example-image-link" href="./img/nuoc2_big.png"
-                                data-lightbox="example-set" data-title="レモンティー：　５００￥">
-                                    <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image" src="./img/nuoc2_big.png">
-                                    <p>nuoc giai khat1</p>
-                                    <p>price: 500￥</p>
+                                <a class="col-lg-12 col-md-3 col-sm-3 col-6  row3-ele example-image-link" href="./imgdep/skewer-gdfa7b17a7_1920.jpg"
+                                data-lightbox="example-set" data-title="焼肉 150￥/1本">
+                                    <div class="product-item">
+                                        <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image yaki-niku" src="./imgdep/skewer-gdfa7b17a7_1920.jpg">
+                                        <h6>焼き肉</h5>
+                                        <p><span class="amount">150</span>￥/1本</p>
+                                        
+                                    </div>
                                 </a>
-                            </div>
-                    </div>
-                
-            </div>
-            
-        </main>
 
+                                <!--drirnk-->
+                                <div class="col-md-3 col-sm-3"></div>
+                                <a class="col-lg-12 col-md-3 col-sm-3 col-6  row3-ele example-image-link" href="./img/coca.png"
+                                data-lightbox="example-set" data-title="Coca-cola: 無料">
+                                    <div class="product-item">
+                                        <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image" src="./img/coca.png">
+                                        <h6>Coca Cola</h6>
+                                        <p>無料</p>
+                                        
+                                    </div>
+                                </a>
+                                <a class="col-lg-12 col-md-3 col-sm-3 col-6  row3-ele example-image-link " href="./img/fanta.png"
+                                data-lightbox="example-set" data-title="Fanta: 無料">
+                                    <div class="product-item">
+                                        <img class="col-lg-12 col-md-12 col-sm-12 col-12 example-image" src="./img/fanta.png">
+                                        <h6>Fanta</h6>
+                                        <p>無料</p>
+                                        
+                                    </div>
+                                </a>
+                                <div class="col-md-3 col-sm-3"></div>
+                            </div>
+                </div>
+
+                <!--scroll snap-->
+                <div class="row ">
+                    <div class="scroll-list">
+                        <div class="scroll-item">
+                            <img loading="lazy" src="imgdep/flesh-gbfce62ef2_1920.jpg" alt="">
+                        </div>
+                        <div class="scroll-item">
+                            <img loading="lazy" src="imgdep/Bún-Thịt-Nướng-Vietnamese-Grilled-Pork-Takestwoeggs-Final-1.jpg" alt="">
+                        </div>
+                        <div class="scroll-item">
+                            <img  loading="lazy" src="imgdep/xuc-xich.jpg" alt="">
+                        </div>
+                        <div class="scroll-item">
+                            <img loading="lazy" src="imgdep/pexels-caleb-oquendo-3023738.jpg" alt="">
+                        </div>
+                        <div class="scroll-item">
+                            <img loading="lazy" src="imgdep/smoke-g6e2a47eb8_1920.jpg" alt="">
+                        </div>
+                        <div class="scroll-item">
+                            <img loading="lazy" src="imgdep/pexels-samer-daboul-2233729.jpg" alt="">
+                        </div>
+                        <div class="scroll-item">
+                            <img loading="lazy" src="imgdep/shashlik-g23068a494_1920.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 10px; color:rgb(86, 103, 117);" class="col-12">
+                    <i><small>写真はイラストのみです。</small></i>
+                </div>
+
+        </main>
+        <footer class="container footer">
+            <div class="row footer-main">
+                <div class="col-sm-12 col-md-6 footer-one">
+                    <ul>
+                        <li>VUONG MANH THANG</li>
+                        奈良コンピューター専門学校<b>リテラシー科</b>
+                        <li>3C-C20IL054</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 footer-two">
+                    <ul>
+                        <li>電話番号:090-1133-xxxx</li>
+                        <li>Email: vuongthang241@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 footer-three">
+                    <div>
+                        <p>連絡と</p>
+                        <a href="https://www.facebook.com/thang.vuongmanh.73/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg> Facebook
+                        </a>
+                        <a href="" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg> Instargram
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="col-12 copy-right">
+                    © 2022 - Page make by VMT
+                </div>
+            </div>
+        </footer>
         <script src="./lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
         <script src="./lightbox2-2.11.3/dist/js/lightbox.js"></script>
 
@@ -103,6 +233,6 @@
         <!-- Include all compiled plugins (below), or include individual files as needed --> 
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap-4.3.1.js"></script>
+        
     </body>
-
 </html>
