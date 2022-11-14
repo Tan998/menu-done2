@@ -7,10 +7,12 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
         <link rel="stylesheet" href="./lightbox2-2.11.3/dist/css/lightbox.css">
+        <link rel="stylesheet" href="https://cdn.leanhduc.pro.vn/utilities/animation/shake-effect/style.css"/>
     </head>
     <body class="body">
         <main>
             <div class="container">
+                
                 <!-- Nav-->
                 <div class="row nav-menu my-2">
                     <div class="col-12">
@@ -51,7 +53,7 @@
                     
                 <div class="row">
                     <!-- row 1-->
-                    <nav class="navbar navbar-expand-lg alert-info row1 col-lg-2 col-md-12 my-2" style="padding: 0;">
+                    <nav class="navbar navbar-expand-lg alert-info row1 col-lg-2 col-md-12 " style="padding: 0;">
                         <button style="width: 100%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             ⬇⬇　3C クラスのページ　⬇⬇
                         </button>
@@ -154,8 +156,20 @@
                                 </a>
                                 <div class="col-md-3 col-sm-3"></div>
                             </div>
-                </div>
 
+                <!--Naruto-->
+                        <div id="shownaruto" onclick="shownaruto()" class="drag-parent draggable "  style="position:fixed; text-align: center;left: 80%;">
+                            <div class="" >
+                                <img class="rung" src="./1x/naruto.png" style=" width: 90%;">
+                                <span class="x-button">X</span>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                </div>
+                
+                
                 <!--scroll snap-->
                 <div class="row ">
                     <div class="scroll-list">
@@ -186,7 +200,7 @@
                 <div style="text-align: center; margin-top: 10px; color:rgb(86, 103, 117);" class="col-12">
                     <i><small>写真はイラストのみです。</small></i>
                 </div>
-
+                
         </main>
         <footer class="container footer">
             <div class="row footer-main">
@@ -224,6 +238,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
         <script src="./lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
         <script src="./lightbox2-2.11.3/dist/js/lightbox.js"></script>
 
@@ -233,6 +248,8 @@
         <!-- Include all compiled plugins (below), or include individual files as needed --> 
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap-4.3.1.js"></script>
+        <script src="js/showcart.js"></script>
+        <script src="js/drag.js"></script>
         
     </body>
 </html>
