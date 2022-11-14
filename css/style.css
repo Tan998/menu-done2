@@ -76,6 +76,10 @@ main .row1-ele p{
     top: auto;
     left: auto;
 }
+.row1 button {
+    border-color: brown;
+    border-style: double;
+}
 
 main .row3 {
     text-align: center;
@@ -106,10 +110,7 @@ main .row3-ele a{
     height: 150px;
 }
 
-.row1 button {
-    border-color: brown;
-    border-style: double;
-}
+
 
 .img-product-fly{
     position: absolute;
@@ -133,8 +134,16 @@ main .row3-ele a{
     float: right;
     cursor: pointer;
 }
-.cart .x-button :hover{
+.drag-parent span {
+    cursor: pointer;
+    color: white;
+    
+}
+.drag-parent span:hover{
     color: red;
+}
+.cart .x-button :hover{
+    color: yellow;
 }
 .cart{
     color: white;
